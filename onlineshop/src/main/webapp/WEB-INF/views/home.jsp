@@ -4,12 +4,7 @@
 	<div class="row">
 
 		<div class="col-md-3">
-			<p class="lead">Shop Name</p>
-			<div class="list-group">
-				<a href="#" class="list-group-item">Category 1</a> <a href="#"
-					class="list-group-item">Category 2</a> <a href="#"
-					class="list-group-item">Category 3</a>
-			</div>
+			<%@include file="./shared/sidebar.jsp" %>
 		</div>
 
 		<div class="col-md-9">
@@ -27,15 +22,15 @@
 						</ol>
 						<div class="carousel-inner">
 							<div class="item active">
-								<img class="slide-image" src="http://placehold.it/800x300"
+								<img class="slide-image" src="resources/images/banner3.jpg"
 									alt="">
 							</div>
 							<div class="item">
-								<img class="slide-image" src="http://placehold.it/800x300"
+								<img class="slide-image" src="resources/images/banner1.png"
 									alt="">
 							</div>
 							<div class="item">
-								<img class="slide-image" src="http://placehold.it/800x300"
+								<img class="slide-image" src="resources/images/banner8.jpg"
 									alt="">
 							</div>
 						</div>
@@ -55,7 +50,7 @@
 
 				<div class="col-sm-4 col-lg-4 col-md-4">
 					<div class="thumbnail">
-						<img src="http://placehold.it/320x150" alt="">
+						<img src="resources/images/item2.gif" alt="">
 						<div class="caption">
 							<h4 class="pull-right">$24.99</h4>
 							<h4>
@@ -82,7 +77,7 @@
 
 				<div class="col-sm-4 col-lg-4 col-md-4">
 					<div class="thumbnail">
-						<img src="http://placehold.it/320x150" alt="">
+						<img src="resources/images/item4.gif" alt="">
 						<div class="caption">
 							<h4 class="pull-right">$64.99</h4>
 							<h4>
@@ -106,7 +101,7 @@
 
 				<div class="col-sm-4 col-lg-4 col-md-4">
 					<div class="thumbnail">
-						<img src="http://placehold.it/320x150" alt="">
+						<img src="resources/images/shoes-image.gif" alt="">
 						<div class="caption">
 							<h4 class="pull-right">$74.99</h4>
 							<h4>
@@ -130,7 +125,7 @@
 
 				<div class="col-sm-4 col-lg-4 col-md-4">
 					<div class="thumbnail">
-						<img src="http://placehold.it/320x150" alt="">
+						<img src="resources/images/item1.gif" alt="">
 						<div class="caption">
 							<h4 class="pull-right">$84.99</h4>
 							<h4>
@@ -154,7 +149,7 @@
 
 				<div class="col-sm-4 col-lg-4 col-md-4">
 					<div class="thumbnail">
-						<img src="http://placehold.it/320x150" alt="">
+						<img src="resources/images/item3.gif" alt="">
 						<div class="caption">
 							<h4 class="pull-right">$94.99</h4>
 							<h4>

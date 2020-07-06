@@ -28,10 +28,10 @@
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
 
 <!-- Bootstrap normalise theme  -->
-<link href="${css}/bootstrap-normalise-theme.css" rel="stylesheet">
+<link href="${css}/bootsrap-normalise-theme.css" rel="stylesheet">
 
 <!-- Custom CSS -->
-<link href="${css}/shop-homepage.css" rel="stylesheet">
+<link href="${css}/myapp.css" rel="stylesheet">
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -63,6 +63,12 @@
 			<c:if test="${userClickContact == true }">
 				<%@include file="contact.jsp"%>
 			</c:if>
+			
+			<!-- Loading only when user clicks All or Category Products -->
+			<c:if test="${userClickAllProducts == true or userClickCategoryProducts == true }">
+				<%@include file="listProducts.jsp"%>
+			</c:if>
+			
 		</div>
 		<!-- Footer comes here -->
 		<%@include file="./shared/footer.jsp"%>
