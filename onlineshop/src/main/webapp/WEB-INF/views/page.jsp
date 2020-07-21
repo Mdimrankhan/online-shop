@@ -22,6 +22,8 @@
 <title>Online Shop - ${title}</title>
 <script>
 	window.menu = '${title}';
+	
+	window.contextRoot = '${contextRoot}'
 </script>
 
 <!-- Bootstrap Core CSS -->
@@ -29,6 +31,11 @@
 
 <!-- Bootstrap normalise theme  -->
 <link href="${css}/bootsrap-normalise-theme.css" rel="stylesheet">
+
+
+<!-- Bootstrap DataTables  -->
+<link href="${css}/dataTables.bootsrap4.css" rel="stylesheet">
+
 
 <!-- Custom CSS -->
 <link href="${css}/myapp.css" rel="stylesheet">
@@ -69,6 +76,12 @@
 				<%@include file="listProducts.jsp"%>
 			</c:if>
 			
+			<!-- Loading only when user clicks show Products -->
+			<c:if test="${userClickShowProduct == true}">
+				<%@include file="singleProduct.jsp"%>
+			</c:if>
+			
+			
 		</div>
 		<!-- Footer comes here -->
 		<%@include file="./shared/footer.jsp"%>
@@ -78,6 +91,13 @@
 
 		<!-- Bootstrap Core JavaScript -->
 		<script src="${js}/bootstrap.min.js"></script>
+		<!-- DataTable Plugin -->
+		<script src="${js}/jquery.dataTables.js"></script>
+		
+		<!-- DataTable Bootstrap Script -->
+		<script src="${js}/dataTables.bootstrap4.js"></script>
+		
+		
 		<!-- Self Cored JavaScript -->
 		<script src="${js}/myapp.js"></script>
 	</div>

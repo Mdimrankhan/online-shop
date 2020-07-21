@@ -11,10 +11,10 @@
     http://www.springframework.org/schema/mvc
     http://www.springframework.org/schema/mvc/spring-mvc.xsd    
    
-   ">
+    ">
    
-   <context:component-scan base-package="net.imr.onlineshop.controller"/>
-   <context:component-scan base-package="net.imr.onlineshopbackend.daoimpl"/>
+   <context:component-scan base-package="net.imr.onlineshop"/>
+   <context:component-scan base-package="net.imr.onlineshopbackend"/>
    
    <bean id="viewResolver"
    		class="org.springframework.web.servlet.view.InternalResourceViewResolver">

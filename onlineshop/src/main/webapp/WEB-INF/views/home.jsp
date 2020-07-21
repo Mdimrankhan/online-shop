@@ -22,7 +22,7 @@
 						</ol>
 						<div class="carousel-inner">
 							<div class="item active">
-								<img class="slide-image" src="resources/images/banner3.jpg"
+								<img class="slide-image" src="resources/images/banner2.jpg"
 									alt="">
 							</div>
 							<div class="item">
@@ -50,7 +50,7 @@
 
 				<div class="col-sm-4 col-lg-4 col-md-4">
 					<div class="thumbnail">
-						<img src="resources/images/item2.gif" alt="">
+						<img src="resources/images/mobile1.jpeg" alt="">
 						<div class="caption">
 							<h4 class="pull-right">$24.99</h4>
 							<h4>
